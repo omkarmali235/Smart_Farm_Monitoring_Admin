@@ -26,7 +26,10 @@ class _LoginPageState extends State<LoginPage> {
                 children: <Widget>[
                   Text(
                     "Create New User",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'RobotoMono'),
                   ),
                   SizedBox(
                     height: 20,

@@ -103,6 +103,7 @@ class HomePage extends StatelessWidget {
                     // the login button
                     MaterialButton(
                       minWidth: double.infinity,
+                      color: Colors.blueGrey,
                       height: 60,
                       onPressed: () {
                         Navigator.push(
